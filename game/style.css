@@ -1,0 +1,59 @@
+body{
+    background: url('background1.jpg') no-repeat; 
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height:100vh;
+    overflow:hidden;
+    font-family: 'Special Elite', cursive;
+}
+canvas{
+    position: absolute;
+    top:0;
+    left:0;
+    
+    width: 100%;
+    height:100%;
+    font-family: 'Special Elite', cursive;
+}
+ #collisionCanvas{
+    opacity:0;
+} 
+#start{
+    position:relative;
+    z-index:115;
+    background-color: orange;
+}
+#main{
+    color:white;
+    position:absolute;
+    background: black;
+    display:block;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border: 1em solid orange;
+    padding:4em 2em;
+    text-align: center;
+    display:visible;
+    
+}
+#main h1{
+    position:relative;
+    top:-1em;
+    font-size:2em;
+ 
+}
+#main p{
+    position:relative;
+    top:-1em;
+    color:orange;
+    font-style: italic;
+}
+#main button{
+    background-color: orange;
+   padding:2em;
+    border-radius: 75%;
+    border:1px solid black;
+    font-family: 'Special Elite', cursive;
+}
